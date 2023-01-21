@@ -1,0 +1,396 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+.form-control{
+    outline: 1px solid rgba(156, 161, 157, 0.5);
+    border-radius: 2pxS;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover{opacity:0.5}
+.dropdown:hover .dropdown-content {margin-left:-130px;display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+#buttons button{
+  color: white;
+  background-color:rgba(156, 161, 157, 0.5);
+  margin: 20px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+}
+#buttons button:hover,#buttons button:focus{
+  background-color: steelblue;
+}
+#rk  small:hover,#rk  small:focus{
+  padding: 20px;
+  background-color: green;
+  cursor: pointer;
+  
+  }
+  #ceck .col h2{
+    margin-left: 40px;
+  }
+  /* #tdin{
+  width: 300px;
+  }
+  #tdin i::hover{
+background-color:red; 
+  }
+  #tdin i::focus{
+    background-color:red; 
+      }
+  #tdin i{
+    box-shadow: 1px red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+  } */
+  #src{
+    padding: 10px;
+    margin: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgba(156, 161, 157, 0.5);
+  }
+  #select{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  #div1{
+    
+    float: left;
+  }
+  .div11{
+    width: 70%;
+  }
+  .div12{
+    width: 30%;
+    background-color:rgba(156, 161, 157, 0.5);
+   text-align: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+  }
+  .div12 i{
+    margin: 15px;
+  }
+  .div1::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+#responce{
+  text-align:center;
+  color: gold;
+}
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+#kl{
+  outline: 1px solid black;
+  margin: 5px 0 22px 0;
+}
+#kl label{
+  background: #f1f1f1;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  margin-bottom: 0px;
+  border-right: 1px solid black;
+}
+#btnsub {
+  text-align: center;
+}
+#btnsub button{ 
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: rgba(156, 161, 157, 0.5);
+  width: 40%;
+  color:white;
+
+}
+/* Full-width input fields */
+input[type=text],input[type=email], input[type=password] ,select{
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: white;
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+  
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.card{
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#mainc hr{
+  background-color: rgba(156, 161, 157, 0.5);
+  color:blueviolet;
+ height: 1px;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(1,78,5, 0.5);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+#inn{
+  margin:auto;
+  padding: 20px;
+  
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  text-align:center;
+}
+#sidebar-wrapper .sidebar-heading i{
+ display:none;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+#sidebar-wrapper .list-group i {
+  width: 30%;
+}
+
+.row #col1{
+	border-right: 2px solid green;
+}
+.row #col2{
+	border-right: 2px solid green;
+}
+#mainc{
+	height:100vh;
+	overflow:auto;
+}
+#head{
+	text-align:center;
+	font-size:24px;
+	margin-left:300px;
+}
+#sidebar-wrapper .list-group p {
+  width: 70%;
+  float:left;
+}
+#page-content-wrapper {
+  min-width: 100vw;
+}
+#div12{
+  color: #555;
+}
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width:5%;
+
+  }
+  #wrapper.toggled #sidebar-wrapper .sidebar-heading p{
+    display:none;
+
+  }
+  #wrapper.toggled #sidebar-wrapper #list{
+     
+     width:100%;
+  }
+  #wrapper.toggled #sidebar-wrapper p {
+ 	display:none;
+	
+  }
+ #wrapper.toggled #sidebar-wrapper .sidebar-heading i{
+ display:table;
+}
+
+
+}
